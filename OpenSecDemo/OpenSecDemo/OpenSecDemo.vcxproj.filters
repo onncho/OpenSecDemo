@@ -24,7 +24,7 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\OpenSec\OPSEC_SDK_6.0_Windows\OpsecSicUtils_WIN32\pkg_rel\examples\cpmi\cpmi_client.h">
+    <ClInclude Include="cpmi_client.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,27 +35,27 @@
     <ClCompile Include="OpenSecDemo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\OpenSec\OPSEC_SDK_6.0_Windows\OpsecSicUtils_WIN32\pkg_rel\examples\cpmi\cpmi_create_obj.c">
+    <ClCompile Include="cpmi_create_obj.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\OpenSec\OPSEC_SDK_6.0_Windows\OpsecSicUtils_WIN32\pkg_rel\examples\cpmi\cpmi_get_notification.c">
+    <ClCompile Include="cpmi_get_notification.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\OpenSec\OPSEC_SDK_6.0_Windows\OpsecSicUtils_WIN32\pkg_rel\examples\cpmi\cpmi_get_status.c">
+    <ClCompile Include="cpmi_get_status.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\OpenSec\OPSEC_SDK_6.0_Windows\OpsecSicUtils_WIN32\pkg_rel\examples\cpmi\cpmi_main.c">
+    <ClCompile Include="cpmi_main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\OpenSec\OPSEC_SDK_6.0_Windows\OpsecSicUtils_WIN32\pkg_rel\examples\cpmi\cpmi_print_obj.c">
+    <ClCompile Include="cpmi_print_obj.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\OpenSec\OPSEC_SDK_6.0_Windows\OpsecSicUtils_WIN32\pkg_rel\examples\cpmi\cpmi_read_obj.c">
+    <ClCompile Include="cpmi_read_obj.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\OpenSec\OPSEC_SDK_6.0_Windows\OpsecSicUtils_WIN32\pkg_rel\examples\cpmi\cpmi.conf">
+    <None Include="cpmi.conf">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

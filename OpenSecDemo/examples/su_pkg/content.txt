@@ -1,0 +1,30 @@
+############################################################
+#              
+# content.txt: Package Content Sample
+#                                                                         
+# This is a part of the Check Point OPSEC SDK                             
+# Copyright (c) 1994-2003 Check Point Software Technologies, Ltd.         
+# All rights reserved.                                                    
+#                                                                         
+# This file is only intended as a supplement to the                
+# Check Point OPSEC SDK and related documentation provided with the SDK   
+# and shall be used in accordance with the standard                       
+# End-User License Agreement.                                             
+# See related documentation for detailed information                      
+# regarding the Check Point OPSEC SDK.                                    
+#                                                                         
+############################################################
+
+VENDOR = SampleCompany
+PRODUCT = SampleApplication
+VERSION = 1.0
+SP = SP0
+# OS value can be one of the following: win32,solaris, i386 and ipso.
+# this content.txt is for linux.
+OS = i386
+Description = Sample package for opsec partners
+Package_Name = SampleApplicationPackage.tgz
+Verify_Script = pkg_verify
+Install_Script = pkg_install
+Uninstall_Script = pkg_uninstall
+OPSEC = 1
